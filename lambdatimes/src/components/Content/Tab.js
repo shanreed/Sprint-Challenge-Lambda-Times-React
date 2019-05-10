@@ -14,7 +14,7 @@ const Tab = props => {
         } else {
 
         changeClass = 'tab';
-        
+
       }
 
   return (

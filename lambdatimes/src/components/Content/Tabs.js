@@ -2,8 +2,8 @@ import React from 'react';
 import Tab from './Tab';
 const Tabs = props => {
   const tabItems = props.tabs.map(tab => 
-  <Tab tab = {tab} selectedTab = {props.selectedTab} 
-  selectTabHandler = {props.selectTabHandler} key={tab} />);
+    <Tab tab = {tab} selectedTab = {props.selectedTab} 
+        selectTabHandler = {props.selectTabHandler} key={tab} />);
   return (
     <div className="tabs">
       <div className="topics">
